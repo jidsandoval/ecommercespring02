@@ -1,0 +1,56 @@
+.menu {
+    width: 90%;
+    margin: auto;   
+
+}
+
+.menu__contenedor {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+
+}
+
+.menu__logo {
+    width: 176px;
+    height: 50px;
+}
+
+.menu__busqueda {
+    display: flex;
+    flex: 1;
+    margin-left: 10px;
+}
+
+.menu__busqueda input[type=text]{
+    width:393px;
+    height:40px;
+    border-radius:25px;
+    background-color: #F5F5F5;
+}
+
+.menu__busqueda button{
+    width: 24px;
+    height: 24px;
+    margin-right: 24px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+} 
+
+
+.menu__login {
+    width: 182px;
+    height: 51px;
+    color: #2A7AE4;
+    background-color:white;
+    border-color: #2A7AE4; 
+    cursor: pointer;
+   
+}
+.menu__login:hover {
+    background-color: #2A7AE4;
+    color: black;
+}
