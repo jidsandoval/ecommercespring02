@@ -48,6 +48,7 @@
     background-color:white;
     border-color: #2A7AE4; 
     cursor: pointer;
+    font-weight: bold;
    
 }
 .menu__login:hover {

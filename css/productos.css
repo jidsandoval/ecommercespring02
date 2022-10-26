@@ -1,0 +1,48 @@
+.productos {
+   padding: 30px 80px;
+}
+
+.productos__img {
+    width: 176px;
+    height: 174px;
+}
+.productos__titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    font-size: 32px;
+    font-size: bold;
+
+}
+.productos__ver, .producto__link {
+    background:none;
+    color: #2A7AE4;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+}
+
+.productos__card {
+   height: 252px;
+   display: flex;
+   flex-wrap:nowrap;
+   justify-content: space-between;
+
+}
+.producto__titulo {
+    font-size: 14px;
+    font-weight: 18px;
+
+}
+
+.productos__precio {
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn:hover {
+    font-size: 18px;
+    color: black;
+    transition: 0.7s;
+}
