@@ -3,6 +3,8 @@
     height: 358px;
     background-image: url("../img/banner-image.png");
     background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .banner__promociones {
@@ -29,4 +31,16 @@
 
 .banner__btn:hover {
     color: black;
+}
+
+@media screen and (max-width:768px) {
+    
+    
+    .banner {
+
+    background-color: #2A7AE4;
+    background-image: url("../img/banner-image.png");
+    
+
+    }
 }

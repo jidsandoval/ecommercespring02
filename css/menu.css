@@ -1,7 +1,9 @@
+.cabecera {
+    width: 100%;
+}
+
 .menu {
     width: 90%;
-    margin: auto;   
-
 }
 
 .menu__contenedor {
@@ -54,4 +56,24 @@
 .menu__login:hover {
     background-color: #2A7AE4;
     color: black;
+}
+
+@media screen and (max-width:768px) {
+     
+    .menu__logo {
+        width: 100px;
+        height: 28px;
+        padding-left: 10px;
+    }
+    .menu__busqueda input[type=text]{
+        width:208px;
+        height:28px;
+        font-size: 0.7rem;
+       
+    }
+    
+    .menu__login {
+        width: 166px;
+        height: 40px;
+    }
 }

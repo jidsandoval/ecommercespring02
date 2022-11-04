@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/044f557525.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/body.css">
@@ -14,9 +13,12 @@
     <link rel="stylesheet" href="../css/productos.css">
     <link rel="stylesheet" href="../css/prodConsolas.css">
     <link rel="stylesheet" href="../css/prodVarios.css">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <link rel="stylesheet" href="../css/rodapie.css">
     <title>E-commerce</title>
 </head>
-<body>
+<body> 
+    <main>
     <!--CABECERA-->
     <header class="cabecera">
         <!--MENU-->
@@ -25,7 +27,7 @@
                 <img class="menu__logo" src="../img/logo.png" alt="">
                     <div class="menu__busqueda">
                         <form action="#">
-                            <input type="text"
+                            <input class="menu__texto" type="text"
                                 placeholder=" Buscar articulo..."
                                 name="search">
                             <button>
@@ -51,7 +53,9 @@
     <section class="productos">
         <div class="productos__titulo">
             <h2>Star Wars</h2>
-            <button class="productos__ver btn">Ver todo</button>
+            <button class="productos__ver btn">Ver todo  <i class="fa-solid fa-arrow-right"></i></button>
+           
+          
         </div>
         <div class="productos__card">
             <div class="productos__contenedor">
@@ -108,7 +112,7 @@
     <section class="consolas">
         <div class="consolas__titulo">
             <h2>Consolas</h2>
-            <button class="consolas__ver btn">Ver todo</button>
+            <button class="consolas__ver btn">Ver todo <i class="fa-solid fa-arrow-right"></i></button>
         </div>
         <div class="consolas__card">
             <div class="consolas__contenedor">
@@ -165,7 +169,7 @@
     <section class="diversos">
         <div class="diversos__titulo">
             <h2>Diversos</h2>
-            <button class="diversos__ver btn">Ver todo</button>
+            <button class="diversos__ver btn">Ver todo <i class="fa-solid fa-arrow-right"></i></button>
         </div>
         <div class="diversos__card">
             <div class="diversos__contenedor">
@@ -220,12 +224,28 @@
     </section>
     <!--CONTACTO-->
     <div class="contacto">
-        
-
+        <div class="logoform">
+            <img src="../img/logo.png" alt="" srcset="">
+        </div>
+        <div class="enlacesform">
+            <a href="#">Quienes Somos</a>
+            <a href="#">Politica de Privacidad</a>
+            <a href="#">Programa de Fidelidad</a>
+            <a href="#">Nuestras Tiendas</a>
+            <a href="#">Quiero ser Franquiciado</a>
+            <a href="#">Anuncie aqui</a>
+        </div>
+        <div class="formulario">
+            <h3>Hable con nosotros</h3>
+            <input class="formulario__nombre" type="text" placeholder="Nombre">
+            <textarea class="formulario__texto" name="textarea" rows="7" cols="30" placeholder="Escribe tu mensaje"></textarea>
+            <button class="formulario__btn">Enviar mensaje</button>
+        </div>
     </div>
     <!--RODAPIE-->
      <div class="rodapie">
-
+        <h3>Desarrollado por Ivan Sandoval</h3>
+        <h3>2022</h3>
      </div>
 
 
