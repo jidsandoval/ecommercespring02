@@ -1,7 +1,7 @@
 .contacto {
     width: 100%;
     height: 368px;
-    padding: 10px 80px;
+    padding: 5px 20px;
     background-color: #F5F5F5;
     display: flex;
     justify-content: space-between;
@@ -11,9 +11,7 @@
 .enlacesform {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding-right: 8rem;
-   
+    justify-content: space-between; 
    
 }
 a {
@@ -50,3 +48,38 @@ a {
     color: black;
     background-color:lightblue;
  }
+
+ @media screen and (max-width:768px) {
+    .logoForm {
+        width: 150px;
+        height: 50px;
+        align-items: 20%;
+    } 
+    .contacto {
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+           
+    }
+
+    .enlacesform {
+        width: 50%;
+        height: 80%;
+        display: flex;
+        font-size: 0.5rem;
+
+    }
+
+    .formulario {
+        width: 70%;
+        height: 100%;
+        font-size: 0.9rem;
+    }
+
+    .formulario__btn {
+        width: 100px;
+        height: 40px;
+        font-size: 0.5rem;
+        
+    }
+}

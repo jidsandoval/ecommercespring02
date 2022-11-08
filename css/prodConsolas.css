@@ -1,5 +1,5 @@
 .consolas {
-    padding: 30px 80px;
+    padding: 10px 10px;
  }
  
  .consolas__img {
@@ -46,3 +46,37 @@
      color: black;
      transition: 0.7s;
  }
+
+ @media screen and (max-width:768px) { 
+    .consolas {
+        padding: 10px 0;
+        font-size: 0.5rem;
+        
+    }
+    .consolas__titulo {
+        width: 95%;
+        font-size: 0.7rem;
+    }
+
+    .consolas__img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .consolas__contenedor {
+        padding: 5px 5px;
+       
+    }
+
+    .ocultar {
+        display: none;
+    }
+    .consola__link {
+        background:none;
+        color: #2A7AE4;
+        font-weight: bold;
+        font-size: 0.6rem;
+        border: none;
+    }
+    
+}

@@ -5,3 +5,13 @@
     
 }
 
+@media screen and (max-width:768px) {
+
+    .rodapie {
+        width: 100%;
+        height: 102px;
+        font-size: 0.7rem;
+      
+    }    
+
+}

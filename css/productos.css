@@ -1,5 +1,5 @@
 .productos {
-   padding: 30px 80px;
+   padding: 10px 10px;
 }
 
 .productos__img {
@@ -11,7 +11,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     font-size: 32px;
     font-size: bold;
 
@@ -45,4 +45,37 @@
     font-size: 18px;
     color: black;
     transition: 0.7s;
+}
+@media screen and (max-width:768px) { 
+    .productos {
+        padding: 25px 0;
+        font-size: 0.5rem;
+        
+    }
+    .productos__titulo {
+        width: 95%;
+        font-size: 0.7rem;
+    }
+
+    .productos__img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .productos__contenedor {
+        padding: 10px 10px;
+       
+    }
+
+    .ocultar {
+        display: none;
+    }
+    .producto__link {
+        background:none;
+        color: #2A7AE4;
+        font-weight: bold;
+        font-size: .6rem;
+        border: none;
+    }
+    
 }
