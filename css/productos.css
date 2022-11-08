@@ -1,17 +1,18 @@
 .productos {
-   padding: 10px 10px;
+    width: 100%;
+    padding-left: 200PX;
 }
 
 .productos__img {
-    width: 180px;
-    height: 172px;
+    width: 200px;
+    height: 200px;
 }
 .productos__titulo {
+    width: 90%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 5px;
+    justify-content:space-between;
+    align-items:baseline;
     font-size: 32px;
     font-size: bold;
 
@@ -25,10 +26,14 @@
 }
 
 .productos__card {
-   height: 252px;
-   display: flex;
-   flex-wrap:nowrap;
-   justify-content: space-between;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.productos__contenedor {
+   margin:23PX;
 
 }
 .producto__titulo {
